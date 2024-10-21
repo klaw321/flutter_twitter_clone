@@ -17,7 +17,7 @@ pipeline{
  stages {
   stage('Checkout code') {
               steps {
-                  git branch: 'main', url: 'https://github.com/klaw321/flutter_twitter_clone.git'
+                  git branch: 'master', url: 'https://github.com/klaw321/flutter_twitter_clone.git'
                   }
     }
  stage('Get app version') {
