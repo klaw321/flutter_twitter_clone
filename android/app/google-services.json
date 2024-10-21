@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "437790859075",
-    "project_id": "flutter-twitter-da5dc",
-    "storage_bucket": "flutter-twitter-da5dc.appspot.com"
+    "project_number": "779967191681",
+    "project_id": "flutter-twitter-65116",
+    "storage_bucket": "flutter-twitter-65116.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:437790859075:android:e0fa83423209b434d019f6",
+        "mobilesdk_app_id": "1:779967191681:android:ed45eb3543e76c580e8b80",
         "android_client_info": {
-          "package_name": "com.twitter.flutter"
+          "package_name": "com.kamal.twitter"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBi4RkvzZXF5ej0sRfQYla5HaQlUoCDC40"
+          "current_key": "AIzaSyAaOmq6d77pTO0IGVV1E841hONA4ChB4Z4"
         }
       ],
       "services": {
