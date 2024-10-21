@@ -48,10 +48,10 @@ jobs:
           path: build/app/outputs/flutter-apk/app-release.apk
 
       - name: Upload Artifact to Firebase App Distribution
-        uses: wzieba/Firebase-Distribution-Github-Action@v3
+        uses: wzieba/Firebase-Distribution-Github-Action@v1.7.0
         with:
           appId: ${{ secrets.FIREBASE_APP_ID }}
-          serviceCredentialsFileContent: ${{ secrets.CREDENTIAL_FILE_CONTENT }}
-          groups: tester
+          serviceCredentialsFileContent: ${{ secrets.SERVICE_CREDENTIALS }}
+          testers: "kushalpokharel234@gmail.com"
           file: build/app/outputs/flutter-apk/app-release.apk 
           releaseNotes: ${{ github.event.inputs.release_notes }}
